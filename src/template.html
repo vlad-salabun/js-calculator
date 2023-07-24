@@ -1,0 +1,137 @@
+<!doctype html>
+<html>
+<head>
+    <title>Vanilla JS Calculator</title>
+    <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tektur:wght@400;500;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+<body>
+    <div id="page">
+
+        <!-- --->
+        <div id="header-outer">
+            <div id="header-inner">
+                Vanilla JS<br> Calculator
+            </div>   
+        </div>   
+        <!-- --->
+
+        <!-- --->
+        <div id="content-outer">
+            <div id="content-inner">
+
+                <!-- calc-display: --->
+                <div id="calc-display-outer">
+                    <div id="calc-display-inner">
+                        <div id="current-operation">
+                            <div id="prev-number-a">0</div> 
+                            <div id="prev-action">0</div> 
+                            <div id="prev-number-b">0</div> 
+                        </div> 
+                        <div id="user-input">
+                            <div id="user-input-left">
+                                <div id="number-a" class="default-font-size">0</div> 
+                                <div id="action" class="default-font-size">0</div> 
+                                <div id="number-b" class="default-font-size">0</div> 
+                            </div> 
+                            <div id="user-input-right" class="noselect">
+                                <div class="control-button change-operation" button="delete" id="delete">❮</div>
+                            </div> 
+                        </div> 
+                        
+                    </div> 
+                </div> 
+                <!-- /calc-display --->
+
+                <!-- calc-body: --->
+                <div id="calc-body-outer" class="noselect">
+                    <div id="calc-body-inner">
+                        
+                        <div id="calc-left">
+                            <div id="calc-left-up">
+                                <div class="control-button change-operation" button="plus">
+                                    <div id="plus-icon" class="change-operation" button="plus">
+                                        +
+                                    </div>
+                                </div>
+                                <div class="control-button change-operation" button="minus">
+                                    <div id="minus-icon" class="change-operation" button="minus">
+                                        −
+                                    </div>   
+                                </div>
+                            </div>
+                            <div id="calc-left-down">
+                                <div class="control-button change-operation" button="multiply">
+                                    <div id="multiply-icon" class="change-operation" button="multiply">
+                                        *
+                                    </div>
+                                </div>
+                                <div class="control-button change-operation" button="divide" id="divide-icon">
+                                    /
+                                </div> 
+                            </div>
+
+
+                        </div> 
+
+                        <div id="calc-center">
+                            <div class="line-numbers">
+                                <div class="input-button numpad" input="1">1</div>
+                                <div class="input-button numpad" input="2">2</div>
+                                <div class="input-button numpad" input="3">3</div>
+                            </div> 
+                            <div class="line-numbers">
+                                <div class="input-button numpad" input="4">4</div>
+                                <div class="input-button numpad" input="5">5</div>
+                                <div class="input-button numpad" input="6">6</div>
+                            </div>
+                            <div class="line-numbers">
+                                <div class="input-button numpad" input="7">7</div>
+                                <div class="input-button numpad" input="8">8</div>
+                                <div class="input-button numpad" input="9">9</div>
+                            </div>   
+                            <div class="line-numbers">
+                                <div class="hidden-button"></div>
+                                <div class="input-button numpad" input="0">0</div>
+                                <div class="input-button numpad" input="." id="decimal">.</div>
+                            </div> 
+                        </div> 
+
+                        <div id="calc-right">
+                            <div id="calc-right-up">
+                                <div class="control-button change-operation" id="clear" button="clear">
+                                    C
+                                </div>
+                            </div>
+                            <div id="calc-right-down">
+                                <div class="control-button change-operation" 
+                                button="equal" id="equal">=</div>
+                            </div>
+
+                        </div> 
+
+                    </div> 
+                </div> 
+                <!-- /calc-body --->
+
+            </div> 
+        </div> 
+        <!-- --->
+
+        <div id="footer">
+            I created this program to show my skills.<br>
+            For detailed description and source code visit: 
+            <br>
+            <a href="https://github.com/vlad-salabun/js-calculator" target ="_blank">js-calculator repository</a>.
+            <br> <br>
+            Author: <a href="https://vlad-salabun.github.io" target ="_blank">Vlad Salabun</a>
+        </div>
+
+    </div>
+
+    <div class="slider-thumb"></div>
+</body>
+</html>

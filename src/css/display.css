@@ -1,0 +1,109 @@
+#calc-display-outer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+#calc-display-inner {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    background-color: rgb(22 22 22 / 14%);
+    width: 460px;
+    color: #fff;
+    border-radius: 7px 7px 7px 7px;
+    height: 80px;
+    margin: 0px 10px;
+}
+
+#current-operation {
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    padding: 15px 20px 0px 20px;
+}
+
+#current-input {
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    flex-wrap: wrap;
+}
+
+#user-input {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+
+#user-input-left {
+    display: flex;
+    flex-direction: row;
+}
+
+#user-input-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#number-a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 2px;
+    padding: 2px 3px;
+    font-size: 23px;
+}
+
+#number-b {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 2px;
+    padding: 2px 3px;
+    font-size: 23px;
+}
+
+#action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 2px;
+    padding: 2px 3px;
+}
+
+#prev-number-a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 2px;
+    padding: 2px 3px;
+    color: #ecae13;
+}
+
+#prev-number-b {
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    margin: 0px 2px;
+    padding: 2px 3px;
+    color: #ecae13;
+}
+
+#prev-action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 2px;
+    padding: 2px 3px;
+    color: #dddddd;
+}
+
+.default-font-size { font-size: 23px !important; }
+.medium-font-size { font-size: 17px !important; }
+.small-font-size { font-size: 13px !important; }

@@ -1,0 +1,7 @@
+node_modules/
+/.tmp.drivedownload/*
+/.tmp.driveupload/*
+/.TemporaryItems/*
+/.DocumentRevisions-V100/*
+/.fseventsd/*
+.DS_Store

@@ -1,0 +1,72 @@
+body {
+    background-color: #0c0d0e;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Tektur';
+}
+
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+  }
+
+
+body {
+    height: 100vh;
+    background: linear-gradient(90deg,#1f93c9,#223bc5);
+}
+  
+.slider-thumb::before {
+      position: absolute;
+      content: "";
+      left: calc(50% - 250px);
+      top: 37%;
+
+      width: 500px;
+      height: 350px;
+      background: #093e647d;
+      border-radius: 62% 47% 82% 35% / 45% 45% 80% 66%;
+      will-change: border-radius, transform, opacity;
+      animation: sliderShape 5s linear infinite;
+      display: block;
+      z-index: -1;
+      -webkit-animation: sliderShape 5s linear infinite;
+  }
+  @keyframes sliderShape{
+    0%,100%{
+    border-radius: 42% 58% 70% 30% / 45% 45% 55% 55%;
+      transform: translate3d(0,0,0) rotateZ(0.01deg);
+    }
+    34%{
+        border-radius: 70% 30% 46% 54% / 30% 29% 71% 70%;
+      transform:  translate3d(0,5px,0) rotateZ(0.01deg);
+    }
+    50%{
+      transform: translate3d(0,0,0) rotateZ(0.01deg);
+    }
+    67%{
+      border-radius: 100% 60% 60% 100% / 100% 100% 60% 60% ;
+      transform: translate3d(0,-3px,0) rotateZ(0.01deg);
+    }
+}
+  
+
+#footer {
+    text-align: center;
+    color: rgb(160, 217, 255);
+    font-family: 'Tektur';
+    font-size: 15px;
+}
+
+#footer a {
+    color: #f1b600;
+}
+
+#footer a:hover {
+    color: #ffbf00;
+}

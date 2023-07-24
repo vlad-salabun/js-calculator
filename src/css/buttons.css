@@ -1,0 +1,136 @@
+.control-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    font-weight: bold;
+    width: 42px;
+    height: 42px;
+    background-color: #0c3b6a;
+    color: #addafc;
+    padding: 3px;
+    margin: 5px;
+    border-radius: 7px;
+}
+
+.control-button:hover, #equal:hover {
+    background-color: #197adc;
+}
+
+.control-button:hover, .input-button:hover {
+    cursor: pointer;
+}
+
+.input-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    /*border: 1px solid #f1f2f3;*/
+    padding: 3px;
+    margin: 2px;
+   /* background-color: #f1f2f3;*/
+    border-radius: 7px;
+    color: #fff;
+}
+
+.input-button:hover {
+    background-color: #e4e6e828;
+    /*border: 1px solid #e4e6e8;*/
+}
+
+.hidden-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+    width: 50px;
+    height: 50px;
+   /* border: 1px solid rgb(39 39 39 / 0%); */
+    padding: 3px;
+    margin: 2px;
+}
+
+#clear {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    font-weight: bold;
+    
+    background-color: #f1b600;
+    border-radius: 7px;
+    width: 42px;
+    height: 80px;
+    color: #fff;
+}
+
+#clear {
+    margin: 6px 5px;
+    font-weight: normal;
+}
+#delete {
+    margin: 2px 0px;
+    padding-bottom: 4px;
+    padding-top: 5px;
+}
+
+#delete {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #f1b600;
+    border-radius: 12px;
+    width: 32px;
+    height: 20px;
+    color: #fff;
+    padding-right: 2x;
+}
+
+
+#clear:hover, #delete:hover {
+    background-color: #f7cc46; 
+}
+
+#equal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 7px;
+    width: 42px;
+    height: 80px;
+    background-color: #0c3b6a;
+    color: #fff;
+    padding: 3px;
+    margin: 5px;
+    border-radius: 7px;
+}
+
+#multiply-icon {
+    padding-top: 6px;
+    padding-left: 1px;
+}
+
+#minus-icon {
+    padding-left: 1px; 
+}
+
+#plus-icon {
+    padding-left: 1px; 
+}
