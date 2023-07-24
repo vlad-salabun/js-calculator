@@ -7,7 +7,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
+    position: relative;
+    z-index: 100;
 }
 
 #calc-body-inner {
@@ -18,6 +19,8 @@
     padding-bottom: 80px;
     /*background-color: rgb(39 39 39 / 30%);*/
     border-radius: 0px 0px 7px 7px;
+    position: relative;
+    z-index: 100;
 }
 
 #calc-left {
