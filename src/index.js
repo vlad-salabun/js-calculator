@@ -22,6 +22,8 @@ class Main
             // Click on numbers:
             if (event.target.classList.contains('input-button')) {
 
+                window.navigator.vibrate(200)
+
                 let input = event.target.getAttribute("input")
 
                 if(input == '.') {
@@ -33,6 +35,8 @@ class Main
         
             // Click on control button:
             if (event.target.classList.contains('change-operation')) {
+
+                window.navigator.vibrate(200)
                 let button = event.target.getAttribute("button")
                 
                 if(button == "clear") {
