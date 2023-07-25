@@ -14,7 +14,9 @@ I didn't use <code>eval()</code> function becouse "eval is evil".
 For bundle all files together I use WebPack.
 </p>
 <p align="center">
+<picture>
 <img src="src/images/JavaScript-logo.png" width="80px">
+</picture>
 <img src="src/images/html-5-logo-svgrepo-com.svg" width="83px" style="margin-left:20px">
 <img src="src/images/CSS3_logo_and_wordmark.svg" width="60px" style="margin-left:20px">
 <img src="src/images/logo-on-white-bg.svg" width="300px">
