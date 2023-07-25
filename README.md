@@ -84,7 +84,7 @@ And on a mobile device it looks like this:
 </p>
 
 <p>
-<picture><img src="src/images/keyboard-svgrepo-com.svg" width="50px" style="float: left; margin: 10px; "></picture>
+<picture><img src="src/images/keyboard-svgrepo-com.svg" width="50px" align="left"></picture>
  <br>
 And for convenient input from a PC, I added keyboard support. Hope you enjoy it.
 </p>
