@@ -23,6 +23,7 @@ For bundle all files together I use WebPack.
 <picture>
     <img src="src/images/CSS3_logo_and_wordmark.svg" width="60px" style="margin-left:20px">
 </picture>
+
 <picture>
     <img src="src/images/logo-on-white-bg.svg" width="220px">
 </picture>
@@ -87,6 +88,10 @@ And on a mobile device it looks like this:
 <picture><img src="src/images/keyboard-svgrepo-com.svg" width="50px" align="left"></picture>
  <br>
 And for convenient input from a PC, I added keyboard support. Hope you enjoy it.
+</p>
+<p align="center">
+Demo:
+<a href="https://vlad-salabun.github.io/js-calculator" target="_blank">https://vlad-salabun.github.io/js-calculator</a>
 </p>
 <br>
 
