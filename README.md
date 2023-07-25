@@ -75,12 +75,11 @@ And on a mobile device it looks like this:
 <picture><img src="src/images/favicon-android.png"></picture>
 </p>
 
-<p style="float: left; margin: 0px 10px 10px 10px; ">
-<picture>
-<img src="src/images/vibration-mode-svgrepo-com.svg" width="50px">
-</picture>
-</p>
+
 <p>
+<picture>
+<img src="src/images/vibration-mode-svgrepo-com.svg" width="50px" align="left">
+</picture>
  To make it more pleasant to use, I added vibration when pressing the buttons. It works for android, but unfortunately still not supported for iOS. I'm very sorry, I hope apple fixes this, because it's a nice feature.
 </p>
 
