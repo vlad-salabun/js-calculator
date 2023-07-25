@@ -24,7 +24,7 @@ For bundle all files together I use WebPack.
     <img src="src/images/CSS3_logo_and_wordmark.svg" width="60px" style="margin-left:20px">
 </picture>
 <picture>
-    <img src="src/images/logo-on-white-bg.svg" width="300px">
+    <img src="src/images/logo-on-white-bg.svg" width="220px">
 </picture>
 </p>
 
@@ -93,7 +93,7 @@ And for convenient input from a PC, I added keyboard support. Hope you enjoy it.
 </p>
 <p align="center">
 Thank you for looking at my work!<br>
-Author: <a href="">Vlad Salabun</a>
+Author: <a href="https://vlad-salabun.github.io">Vlad Salabun</a>
 </p>
 
 ----------
